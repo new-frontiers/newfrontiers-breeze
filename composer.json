@@ -1,0 +1,32 @@
+{
+    "name": "newfrontiers/breeze",
+    "type": "library",
+    "description": "Basic support for Breeze enabled appplications",
+    "keywords": [
+        "newfrontiers",
+        "breeze"
+    ],
+    "homepage": "https://github.com/new-frontiers/newfrontiers-breeze",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "new frontiers Software GmbH",
+            "email": "info@new-frontiers.de",
+            "homepage": "http://www.new-frontiers.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~5.5|~7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NewFrontiers\\Breeze\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NewFrontiers\\Breeze\\Test\\": "tests"
+        }
+    }
+}
