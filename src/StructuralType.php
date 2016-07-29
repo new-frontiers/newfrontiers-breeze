@@ -30,5 +30,14 @@ class StructuralType
         return $result;
     }
 
+    /**
+     * @return DataPropertyComplexType
+     */
+    public function addComplexType() {
+        $result = new DataPropertyComplexType();
+        $this->dataProperties[] = $result;
+        return $result;
+    }
+
 
 }
