@@ -5,7 +5,6 @@
 
 namespace NewFrontiers\Breeze;
 
-
 class ComplexType
 {
 
@@ -24,10 +23,10 @@ class ComplexType
     /**
      * @return DataProperty
      */
-    public function addDataProperty() {
+    public function addDataProperty()
+    {
         $result = new DataProperty();
         $this->dataProperties[] = $result;
         return $result;
     }
-
 }

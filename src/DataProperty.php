@@ -5,7 +5,6 @@
 
 namespace NewFrontiers\Breeze;
 
-
 class DataProperty
 {
 
@@ -18,5 +17,4 @@ class DataProperty
     public $isPartOfKey = false;
 
     public $validators = [];
-
 }

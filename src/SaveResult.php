@@ -5,7 +5,6 @@
 
 namespace NewFrontiers\Breeze;
 
-
 class SaveResult
 {
 
@@ -13,14 +12,15 @@ class SaveResult
 
     public $keyMappings;
 
-    public function addEntity($entity) {
+    public function addEntity($entity)
+    {
         $this->entities[] = $entity;
         return $this;
     }
 
-    public function addKeyMapping(KeyMapping $keyMapping) {
+    public function addKeyMapping(KeyMapping $keyMapping)
+    {
         $this->keyMappings[] = $keyMapping;
         return $this;
     }
-
 }

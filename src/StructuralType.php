@@ -5,7 +5,6 @@
 
 namespace NewFrontiers\Breeze;
 
-
 class StructuralType
 {
 
@@ -24,7 +23,8 @@ class StructuralType
     /**
      * @return DataProperty
      */
-    public function addDataProperty() {
+    public function addDataProperty()
+    {
         $result = new DataProperty();
         $this->dataProperties[] = $result;
         return $result;
@@ -33,11 +33,10 @@ class StructuralType
     /**
      * @return DataPropertyComplexType
      */
-    public function addComplexType() {
+    public function addComplexType()
+    {
         $result = new DataPropertyComplexType();
         $this->dataProperties[] = $result;
         return $result;
     }
-
-
 }

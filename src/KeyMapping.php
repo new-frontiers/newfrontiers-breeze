@@ -5,7 +5,6 @@
 
 namespace NewFrontiers\Breeze;
 
-
 class KeyMapping
 {
 
@@ -14,5 +13,4 @@ class KeyMapping
     public $realValue;
 
     public $tempValue;
-
 }

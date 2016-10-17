@@ -5,12 +5,10 @@
 
 namespace NewFrontiers\Breeze;
 
-
 class Validator
 {
 
     public $name;
 
     public $maxLength;
-
 }

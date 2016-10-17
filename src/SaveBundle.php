@@ -5,10 +5,8 @@
 
 namespace NewFrontiers\Breeze;
 
-
 class SaveBundle
 {
 
     public $entities;
-
 }
